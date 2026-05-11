@@ -1,0 +1,53 @@
+{
+    "Mission": {
+        "One": {
+            "title": "Support technique et assistance aux utilisateurs",
+            "content": "Dans le cadre de mon alternance à la Mairie de Bagneux, j'interviens sur des missions de support technique et d'assistance aux utilisateurs. Cela comprend notamment la préparation de postes informatiques, l'installation de matériels, la livraison d'équipements, ainsi que certaines interventions de dépannage. Ces missions me permettent de comprendre l'organisation du parc informatique et les besoins concrets des agents."
+        },
+        "Two": {
+            "title": "Découverte de l'administration systèmes et réseaux",
+            "content": "Au sein de la Direction de l'Informatique et de la Ville Intelligente et Connectée (DIVIC), j'évolue dans un environnement professionnel lié à l'administration systèmes et réseaux. Même si mes missions en entreprise restent principalement orientées vers le support et les interventions techniques de proximité, cette expérience me permet d'observer le fonctionnement d'une infrastructure informatique en collectivité territoriale et de développer ma compréhension des outils, des procédures et de l'organisation d'un service informatique."
+        }
+    },
+    "Epreuve": {
+        "E5": {
+            "title": "Epreuve E5 - Support et mise à disposition de services informatiques",
+            "content": "L'épreuve E5 s'intitule officiellement 'Support et mise à disposition de services informatiques'. Elle est commune aux deux options du BTS SIO. Cette épreuve orale repose sur des réalisations professionnelles menées pendant la formation et présentées à l'aide de fiches descriptives et de supports techniques. Dans mon parcours en SISR, cette épreuve me permet de mettre en valeur des activités de support, de préparation de postes, d'assistance aux utilisateurs et de mise à disposition de services informatiques, tout en montrant ma capacité à analyser un besoin, appliquer une méthode de travail et présenter clairement mes actions."
+        },
+        "E6": {
+            "title": "Epreuve E6 - Administration des systèmes et des réseaux",
+            "content": "L'épreuve E6 a pour objectif d'évaluer les compétences du bloc 'Administration des systèmes et des réseaux'. Elle repose sur la présentation de deux situations professionnelles techniques, documentées et préparées en amont. Dans mon cas, cette épreuve met en avant des réalisations liées à l'administration réseau et système, comme la configuration de VLAN, le routage inter-VLAN, l'accès Internet, la mise en place de services sur Windows Server ou encore l'administration d'infrastructures virtualisées. Cette épreuve permet de démontrer ma capacité à concevoir, configurer, tester, sécuriser et expliquer une solution technique."
+        }
+    },
+    "Entreprise": {
+        "title": "Mairie de Bagneux",
+        "subtitle": "Collectivité territoriale engagée dans la gestion des services publics et la transformation numérique",
+        "description": "La Mairie de Bagneux est une collectivité territoriale qui assure de nombreux services publics pour les habitants de la commune. Son fonctionnement repose sur plusieurs directions et services, dont la Direction de l'Informatique et de la Ville Intelligente et Connectée (DIVIC), au sein de laquelle j'effectue mon alternance. Ce service est chargé de la gestion du parc informatique, du support aux utilisateurs, du maintien en condition opérationnelle des équipements et du suivi de différents projets numériques liés aux besoins de la collectivité.",
+        "mission": {
+            "title": "Ma mission en tant qu'apprenti",
+            "content": "En tant qu'apprenti technicien systèmes et réseaux, je participe principalement à des missions de support informatique, de préparation et d'installation de matériels, ainsi qu'à certaines interventions techniques auprès des utilisateurs. Mon alternance me permet de découvrir le fonctionnement concret d'un service informatique en collectivité et de renforcer mes compétences dans le domaine des systèmes, des réseaux et du support."
+        },
+        "services": {
+            "title": "Services et activités de l'entreprise",
+            "content": "La DIVIC assure plusieurs activités essentielles : gestion du parc informatique, assistance aux utilisateurs, maintenance des équipements, administration d'outils numériques et accompagnement des besoins informatiques des différents services de la mairie. Elle contribue également à l'évolution de l'environnement numérique de la collectivité à travers différents projets techniques et organisationnels."
+        },
+        "content": {
+            "Value": {
+                "title": "Valeurs de l'entreprise",
+                "content": "La Mairie de Bagneux s'inscrit dans une logique de service public, de proximité avec les usagers et d'amélioration continue des services proposés aux agents et aux habitants. Dans ce cadre, le service informatique doit faire preuve de rigueur, de disponibilité, d'adaptabilité et de sens du service."
+            },
+            "Integration": {
+                "title": "Mon intégration",
+                "content": "J'ai intégré la Mairie de Bagneux dans le cadre de mon BTS SIO option SISR en alternance. Cette expérience m'a permis de découvrir le fonctionnement d'un service informatique au sein d'une collectivité territoriale, de m'adapter à un environnement professionnel réel et de mieux comprendre les contraintes techniques et organisationnelles du métier."
+            },
+            "Skills": {
+                "title": "Compétences développées",
+                "content": "Au cours de mon alternance, j'ai développé des compétences en support informatique, en préparation et installation de postes, en organisation du travail, en communication professionnelle avec les utilisateurs et en compréhension des environnements systèmes et réseaux. En parallèle, ma formation m'a permis de renforcer mes compétences techniques sur Windows Server, la virtualisation, Cisco, l'administration réseau et les services d'infrastructure."
+            },
+            "Contact": {
+                "title": "Contact",
+                "content": "La Mairie de Bagneux est située à Bagneux, dans les Hauts-de-Seine. Pour plus d'informations sur la collectivité et ses services, il est possible de consulter le site officiel de la ville."
+            }
+        }
+    }
+}

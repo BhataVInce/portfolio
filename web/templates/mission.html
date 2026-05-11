@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma mission - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #93a6fb 0%, #6257f5 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .navbar {
+            max-width: 1200px;
+            margin: 0 auto 30px;
+            background: white;
+            padding: 20px 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            color: #6257f5;
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            background: linear-gradient(135deg, #93a6fb 0%, #6257f5 100%);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #6257f5;
+        }
+
+        .header-section h2 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header-section p {
+            color: #666;
+            font-size: 1.2rem;
+        }
+
+        .content-section {
+            margin-bottom: 50px;
+        }
+
+        .content-section h3 {
+            color: #6257f5;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 4px solid #6257f5;
+        }
+
+        .content-box {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 40px;
+            min-height: 20px;
+            border: 2px dashed #dee2e6;
+            color: #6c757d;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .content-box p {
+            margin-bottom: 15px;
+        }
+
+        .content-box:last-child {
+            margin-bottom: 0;
+        }
+
+        .grid-sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .grid-item {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 30px;
+            min-height: 200px;
+            border: 2px dashed #dee2e6;
+        }
+
+        .grid-item h4 {
+            color: #6257f5;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        .placeholder-text {
+            color: #65686b;
+            font-style: italic;
+        }
+
+        .organigramme-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 40px;
+            min-height: 400px;
+            border: 2px dashed #dee2e6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .organigramme-placeholder {
+            color: #adb5bd;
+        }
+
+        .organigramme-placeholder h4 {
+            color: #6257f5;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            .navbar {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .header-section h2 {
+                font-size: 2rem;
+            }
+
+            .content-section h3 {
+                font-size: 1.5rem;
+            }
+
+            .content-box {
+                padding: 25px;
+            }
+
+            .grid-sections {
+                grid-template-columns: 1fr;
+            }
+        }
+        .link-box {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 40px;
+            min-height: 20px;
+            border: 2px dashed #aad5ff;
+            background-color: #def0ff;
+            line-height: 1.8;
+            font-size: 1.05rem;
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>📒 Mes mission</h1>
+        <a href="/" class="nav-link">← Retour à l'accueil</a>
+    </nav>
+
+    <div class="container">
+        <div class="header-section">
+            <h2>Mission 1 : Mise en place d’un Active Directory</h2>
+            <div class="content-box">
+                <p class="placeholder-text">
+                    Dans le cadre de ma formation en BTS SIO option SISR, j’ai été amené à réaliser un projet visant à mettre en place une infrastructure réseau simulée en environnement virtualisé. L’objectif était de reproduire une architecture d’entreprise afin de comprendre le fonctionnement des services systèmes et réseaux. L’entreprise fictive ne disposait pas de système centralisé pour gérer les utilisateurs et les ressources, ce qui compliquait la gestion du réseau et la sécurité.
+                </p>
+                <div>
+                    <a href="https://docs.google.com/document/d/1jITMiamXldSkEoQ59r3sO_qMiA9NHXxTODbkV5V__mg/edit?tab=t.0#heading=h.rjy5xhe1hh51" target="_blank" class="link-box">Lien vers la mission 1</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-section">
+            <h2>Mission 2 : Mise en place d'une architecture réseau avec VLAN</h2>
+            <div class="content-box">
+                <p class="placeholder-text">
+                    Dans le cadre de ma formation en BTS SIO option SISR, j’ai été amené à réaliser un projet visant à mettre en place une architecture réseau segmentée. Dans une entreprise, il est souvent nécessaire de séparer les différents services afin d’améliorer la sécurité et l’organisation du réseau
+                </p>
+                <div>
+                    <a href="https://docs.google.com/document/d/1QyZ9P91yT1K9rObCf7Ov4eBfMe-MBX2ycXRYGyUTjek/edit?ouid=111179637222302596522&usp=docs_home&ths=true" target="_blank" class="link-box">Lien vers la mission 2</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-section">
+            <h2>Mission 3 : Déploiement de postes informatiques dans un contexte de reprise après cyberattaque </h2>
+            <div class="content-box">
+                <p class="placeholder-text">
+                    Suite à une cyberattaque ayant compromis la solution de télétravail utilisée par la mairie (connexion à distance via des postes personnels), le service informatique a dû revoir entièrement son mode de fonctionnement afin de garantir la sécurité des accès. Pour répondre à cette problématique, la décision a été prise d’équiper les agents en télétravail de postes professionnels sécurisés, intégrés au domaine de l’organisation. Dans ce cadre, plus de 200 ordinateurs portables ont été commandés et devaient être préparés et déployés dans un délai court afin d’assurer la continuité de service.
+                </p>
+                <div>
+                    <a href="https://docs.google.com/document/d/1nEMLz2yzYl2YK9H6rjYKyHqklFrpuvq9R6o_3FUmYCA/edit?tab=t.0#heading=h.azq7ziek51ee" target="_blank" class="link-box">Lien vers la mission 3</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-section">
+            <h2>Mission 4 : Maintenance et gestion du parc informatique</h2>
+            <div class="content-box">
+                <p class="placeholder-text">
+                    Le service informatique de la mairie gère un parc composé de nombreux équipements. En raison des nombreuses interventions et du renouvellement régulier du matériel, il est nécessaire de maintenir une bonne organisation afin d’éviter l’accumulation de matériel inutilisé ou défectueux. Le service informatique doit également adapter les équipements selon les besoins des utilisateurs tout en optimisant la réutilisation du matériel encore fonctionnel.
+                </p>
+                <div>
+                    <a href="https://docs.google.com/document/d/1gTIctB7laacJjz39VqXwlKssTfgkukUWSOgynGvzAZI/edit?tab=t.0#heading=h.ozcxqd3yrcdk" target="_blank" class="link-box">Lien vers la mission 4</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-section">
+            <h2>Mission 5 : Migration et configuration d’un smartphone professionnel Android avec synchronisation des services Microsoft Exchange</h2>
+            <div class="content-box">
+                <p class="placeholder-text">
+                    Dans le cadre de mon alternance au sein de la Direction de l’Informatique et de la Ville Intelligente et Connectée (DIVIC) de la mairie de Bagneux, je réalise régulièrement des interventions de préparation et de mise en service de smartphones professionnels destinés aux agents de la collectivité. Cette mission consiste à préparer un nouveau smartphone Samsung Galaxy XCover 5, enregistrer l’équipement dans GLPI, transférer les données de l’ancien téléphone et configurer la messagerie professionnelle Microsoft Exchange afin de remettre un terminal entièrement opérationnel à l’utilisateur.
+                </p>
+                <div>
+                    <a href="https://docs.google.com/document/d/1zni5ESGBhEqbYwFLbrqZ9YtxrGgwzt9l3ZkQ5QZwvuE/edit?tab=t.0#heading=h.j88m2aux1ptr" target="_blank" class="link-box">Lien vers la mission 5</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-section">
+            <h2>Mission 6 : Mise en place d’une solution de diffusion et de visioconférence</h2>
+            <div class="content-box">
+                <p class="placeholder-text">
+                    La DEPE dispose d’une salle utilisée pour des réunions et des présentations, mais celle-ci ne possédait aucun système de projection permettant d’afficher des documents ou des visioconférences sur grand écran. Une demande est donc transmise au service informatique afin d’installer une télévision permettant d’améliorer les réunions du service. Je récupère l’une de ces télévisions inutilisées d'une précédente solution non compatible avec l'infrastructure réseau, puis je réalise son installation complète au sein de la DEPE.
+                </p>
+                <div>
+                    <a href="https://docs.google.com/document/d/1ceLlIEPsSz7khR8BTSOUTtSM8QdkBbAJMRKIpdnU37s/edit?tab=t.0#heading=h.y7dc7fr2almo" target="_blank" class="link-box">Lien vers la mission 6</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
